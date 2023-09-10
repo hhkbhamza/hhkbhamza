@@ -93,3 +93,31 @@ button {
     padding: none;
     cursor: crosshair;
 }
+
+
+
+#button {
+    border: 2px solid #3498db;
+    transition: border-width 0.3s ease;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    animation: pulse 1s infinite;
+}
+#button:hover {
+    border-width: 4px;
+    text-decoration: underline;
+    color: #7808c2;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
