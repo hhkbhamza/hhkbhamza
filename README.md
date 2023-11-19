@@ -1,5 +1,6 @@
 ### Hi there 👋
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hhkbhamza&size_weight=0.5&count_weight=0.5)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=hhkbhamza&theme=shadow_red&show_icons=true)
 
 
 - 🔭 I’m currently working on a couple new projects to add to my portfolio.
