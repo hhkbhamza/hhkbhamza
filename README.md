@@ -7,4 +7,4 @@
 ![](https://github-readme-stats.vercel.app/api?username=hhkbhamza&show_icons=true&theme=tokyonight)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=hhkbhamza&theme=tokyonight)<br/>
 
-- ⚡ Check out my latest project https://cunysphere.onrender.com . ~ Under Construction
+- ⚡ Check out my latest project https://cunysphere.onrender.com
