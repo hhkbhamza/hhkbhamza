@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
         var scrollDistance = window.innerHeight;
 
         // Scroll down by the calculated distance
-        window.scrollBy(0, scrollDistance);
+        window.scrollBy(0, scrollDistance/1.2);
     });
 });
