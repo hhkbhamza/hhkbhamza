@@ -1,137 +1,122 @@
-html { scroll-behavior: smooth; } 
+html {
+  scroll-behavior: smooth;
+}
 body {
-    padding: 0;
-    margin: 0;
-    background: #f2f6e9;
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
 }
 .navbar {
-    background: #76b2da;
+  background: #76b2da;
 }
 .nav-link,
 .navbar-brand {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 .nav-link {
-    margin-right: 1em !important;
+  margin-right: 1em !important;
 }
 .nav-link:hover {
-    color: #000;
+  color: #000;
 }
 .navbar-collapse {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .header {
-    margin-top: 175px;
-    position: relative;
-    height: 450px !important;
+  margin-top: 175px;
+  position: relative;
+  height: 450px !important;
 }
 
 .overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(175, 200, 206, 0.6);
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(175, 200, 206, 0.6);
 }
 
 .description {
-	left: 50%;
-	position: absolute;
-	top: 45%;
-	transform: translate(-50%, -55%);
-	text-align: center;
-    margin-top: -200px;
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+  margin-top: -200px;
 }
 .description h1 {
-	color: #270b3a;
-    font-size: 4em;
+  color: #270b3a;
+  font-size: 4em;
 }
 .description p {
-	color: #fff;
-	font-size: 1.3rem;
-	line-height: 1.5;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 .features {
-	margin: 4em auto;
-	padding: 1em;
-	position: relative;
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
 }
 .feature-title {
-	color: #333;
-	font-size: 1.3rem;
-	font-weight: 700;
-	margin-bottom: 20px;
-	text-transform: uppercase;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .features img {
-	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-	margin-bottom: 16px;
-}
-
-.page-footer {
-    background-color: #222;
-    color: #ccc;
-    padding: 60px 0 30px;
-}
-.footer-copyright {
-    color: #666;
-    padding: 40px 0;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
 }
 
 .heading {
-    background-color: #76b2da;
+  background-color: #76b2da;
 }
 
 a {
-    font-size: 30px;
-    padding: 0;
-    margin: 0 auto;
+  font-size: 30px;
+  padding: 0;
+  margin: 0 auto;
 }
 button {
-    margin: 0 auto;
-    padding: none;
-    cursor: crosshair;
+  margin: 0 auto;
+  padding: none;
+  cursor: crosshair;
 }
-/* 
-p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
 
 #button {
-    border: 2px solid #3498db;
-    transition: border-width 0.3s ease;
-    color: #1f1f1f;
-    transition: color 0.3s ease;
-    animation: pulse 1s infinite;
+  border: 2px solid #3498db;
+  transition: border-width 0.3s ease;
+  color: #1f1f1f;
+  transition: color 0.3s ease;
+  animation: pulse 1s infinite;
 }
 #button:hover {
-    border-width: 4px;
-    text-decoration: underline;
-    color: #76b2da;
+  border-width: 4px;
+  text-decoration: underline;
+  color: #76b2da;
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap");
 .design-section {
   display: flex;
   flex-direction: column;
@@ -158,32 +143,19 @@ p {
   flex-direction: column;
 }
 
-/* .timeline-content {
-    padding: 20px;
-    background: #1f1f1f;
-    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
-    border-radius: 5px;
-    color: white;
-    padding: 1.75rem;
-    transition: 0.4s ease;
-    overflow-wrap: break-word !important;
-    margin: 1.5rem 1rem; 
-    border-radius: 6px;
-    position: relative;
-  } */
-  .timeline-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensure space between the content and date */
-    padding: 20px;
-    background: #1f1f1f;
-    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
-    border-radius: 5px;
-    color: white;
-    overflow-wrap: break-word !important;
-    margin: 1.5rem 1rem; 
-    border-radius: 6px;
-    position: relative;
+.timeline-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure space between the content and date */
+  padding: 20px;
+  background: #1f1f1f;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: white;
+  overflow-wrap: break-word !important;
+  margin: 1.5rem 1rem;
+  border-radius: 6px;
+  position: relative;
 }
 
 .timeline-component {
@@ -191,10 +163,10 @@ p {
 }
 
 .dates {
-    margin-top: auto; /* Push the date to the bottom */
-    text-align: right;
-    font-size: 14px;
-    color: #ccc;
+  margin-top: auto; /* Push the date to the bottom */
+  text-align: right;
+  font-size: 14px;
+  color: #ccc;
 }
 
 @media screen and (min-width: 768px) {
@@ -204,7 +176,7 @@ p {
   }
   .timeline-middle {
     position: relative;
-    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    background-image: linear-gradient(45deg, #f27121, #e94057, #8a2387);
     width: 3px;
     height: 100%;
   }
@@ -218,9 +190,9 @@ p {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    background-image: linear-gradient(45deg, #f27121, #e94057, #8a2387);
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }
 
