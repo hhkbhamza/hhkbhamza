@@ -196,3 +196,108 @@ button {
   }
 }
 
+
+
+
+
+
+ .card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-img-top.project-image {
+  width: 400px;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.repo-button {
+  background-color: #333;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.repo-button:hover {
+  background-color: #555;
+}
+
+.tech-used {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.tech-used span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.tech-icons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.techUsed {
+  height: 30px;
+  width: 30px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.container.features {
+  margin-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: auto;
+  }
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container.features {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
