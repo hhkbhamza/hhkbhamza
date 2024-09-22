@@ -1,4 +1,3 @@
-### Hi there 👋
 
 ![](https://komarev.com/ghpvc/?username=hhkbhamza&color=d43080&style=for-the-badge&label=PROFILE+HITS)
 
