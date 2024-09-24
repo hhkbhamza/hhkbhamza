@@ -8,4 +8,4 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=hhkbhamza&theme=tokyonight)<br/>
 
-- ⚡ Check out my latest project [Cheetcode](https://www.cheetcode.dev/)
+⚡ Check out my latest project [Cheetcode](https://www.cheetcode.dev/)
